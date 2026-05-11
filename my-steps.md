@@ -6,4 +6,4 @@
    
 4. [Docker install](https://github.com/SeshadriRC/devops-cloud-interview-guide/blob/main/my-guide/Docker/01-Install-Docker.md)
 5. [Install kubectl](https://github.com/SeshadriRC/devops-cloud-interview-guide/blob/main/my-guide/Kubernetes/02-kubectl-install.md)
-6. [Install Terraform](https://developer.hashicorp.com/terraform/install)
+6. [Install Terraform](https://github.com/SeshadriRC/devops-cloud-interview-guide/blob/main/my-guide/Terraform/01-Install-Terraform.md)
