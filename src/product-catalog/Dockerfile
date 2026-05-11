@@ -1,4 +1,5 @@
-FROM golang:1.22-alpine AS builder   # writing the base image for base image, builder --> indicates we are building multistage docker file, so that it will copy only the binary to the next stage.
+# writing the base image for base image, builder --> indicates we are building multistage docker file, so that it will copy only the binary to the next stage.
+FROM golang:1.22-alpine AS builder   
 
 WORKDIR /usr/src/app/
 
