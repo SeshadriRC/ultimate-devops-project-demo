@@ -12,7 +12,7 @@ INFO[0000] Product Catalog gRPC server started on port: 8088
 To build the service binary, run:
 
 ```sh
-export PRODUCT_CATALOG_PORT=<any-unique-port>
+export PRODUCT_CATALOG_PORT=<any-unique-port>   # i will use 8088
 go build -o product-catalog . 
 ```
 
