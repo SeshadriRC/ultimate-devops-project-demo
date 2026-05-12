@@ -5,6 +5,12 @@ are provided then it returns random ads.
 
 ## Building Locally
 
+- Install Java
+
+```ssh
+sudo apt install jdk-21-jre-headless
+```
+
 The Ad service requires at least JDK 17 to build and uses gradlew to
 compile/install/distribute. Gradle wrapper is already part of the source code.
 To build Ad Service, run:
