@@ -35,7 +35,7 @@ It will create an executable script
 To run the Ad Service:
 
 ```sh
-export AD_PORT=8080
+export AD_PORT=9099
 export FEATURE_FLAG_GRPC_SERVICE_ADDR=featureflagservice:50053
 ./build/install/opentelemetry-demo-ad/bin/Ad
 ```
