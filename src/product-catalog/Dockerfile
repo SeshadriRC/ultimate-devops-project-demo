@@ -21,7 +21,7 @@ RUN go mod download
 RUN go build -o product-catalog .
 
 ####################################
-# Create fresh lightweight Alpine image,This stage will only run the app. No Go compiler included,This reduces image size drastically.
+# Create fresh lightweight Alpine image,This stage will only run the app. No Go compiler included,This reduces image size drastically. we can run a Go binary on a machine even if Go is not installed. Because Go is statically linked
 FROM alpine AS release
 
 WORKDIR /usr/src/app/
