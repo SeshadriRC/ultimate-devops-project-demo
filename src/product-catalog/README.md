@@ -41,8 +41,12 @@ go get -u -t ./...
 go mod tidy
 ```
 
-## To build the docker image
+## To build and run the docker image
 
 ```bash
+# Build the docker image
 docker build -f Dockerfile.new -t sesharc/product-catalog:v1 .
+
+# Run theh docker image
+docker run sesharc/product-catalog:v1
 ```
