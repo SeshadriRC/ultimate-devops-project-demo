@@ -67,5 +67,9 @@ If you need to upgrade the version of gradle then run
 From the root of `opentelemetry-demo`, run:
 
 ```sh
-docker build --file ./src/ad/Dockerfile ./
+docker build -t sesharc/adservice:v1
+docker run sesharc/adservice:v1
 ```
+
+<img width="1919" height="610" alt="image" src="https://github.com/user-attachments/assets/fe5ebb7e-35bf-48f9-9571-31ea47545719" />
+
