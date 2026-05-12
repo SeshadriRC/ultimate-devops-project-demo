@@ -23,6 +23,12 @@ To build Ad Service, run:
 ./gradlew installDist -PprotoSourceDir=./proto
 ```
 
+- So this command here is going to start the Gradle daemon which is like a server. And it is going to install the dependencies, Then it is going to perform the compilation.
+Also it is going to build the application and the build application is saved in a particular directory, which is also provided by the directory developer.
+
+<img width="1045" height="340" alt="image" src="https://github.com/user-attachments/assets/ed8e8aaf-7dd3-40a4-b6db-e83eeb82ce06" />
+
+
 It will create an executable script
 `src/ad/build/install/oteldemo/bin/Ad`.
 
