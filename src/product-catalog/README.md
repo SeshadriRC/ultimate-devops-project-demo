@@ -44,5 +44,5 @@ go mod tidy
 ## To build the docker image
 
 ```bash
-docker build -t sesharc/product-catalog:v1 .
+docker build -f Dockerfile.new -t sesharc/product-catalog:v1 .
 ```
