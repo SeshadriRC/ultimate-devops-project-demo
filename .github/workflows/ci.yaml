@@ -23,7 +23,8 @@ jobs:
         - name: Build
           run: |
             cd src/product-catalog
-            go mod download         # downloads the dependencies
+            # downloads the dependencies
+            go mod download         
             go build -o product-catalog-service main.go
 
         - name: unit tests
